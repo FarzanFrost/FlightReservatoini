@@ -53,9 +53,9 @@ object flightquestion extends App {
                 case _ => println("Invalid input")
 
             }
-            temp = temp +1
-        }
 
+        }
+        temp = temp +1
     }
 
 
