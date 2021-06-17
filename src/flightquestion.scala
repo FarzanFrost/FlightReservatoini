@@ -21,9 +21,9 @@ object flightquestion extends App {
 
 
 
-        var stopWhileLoop = true
+        var stopWhileLoop = false
 
-        while(stopWhileLoop){
+        while(!stopWhileLoop){
             println("Options")
             println("1 : Occupy seat")
             println("2 : Free seat")
@@ -48,7 +48,7 @@ object flightquestion extends App {
                     println("No of free seats available " + freeNoOfSeats())
                 }
                 case 4 => {
-                    stopWhileLoop = false
+                    stopWhileLoop = true
                 }
                 case _ => println("Invalid input")
 
